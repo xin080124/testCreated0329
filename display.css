@@ -1,0 +1,28 @@
+a {
+  padding: 3px 10px;
+  margin: 20px 10px;
+  text-decoration: none;
+  display: block;
+  width: 260px;
+  border-left: 1px solid #ccc;
+  border-right: 2px solid black;
+  border-top: 1px solid #ccc;
+  border-bottom: 2px solid black;
+}
+
+a:hover {
+  color: red;
+  background-color: #aaa;
+}
+
+.ErrFld{
+  background-color: #FF0000;
+}
+
+.FontWhite{
+  color: white; 
+}
+
+.FontYellow{
+  color: blue; 
+}
