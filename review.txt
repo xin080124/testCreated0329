@@ -1,0 +1,11 @@
+use git hub to add folders
+select project---right key---open in explorer
+---add folder and file manually---click project node in github again
+---open git shell---git add .\js\global.js
+---if fail,use git add -f .\js\global.js instead
+---type "git commit"----a txtfile will pump out---input commit log
+---close the txtfile---the commit action will be completed automatically
+---type ¡°git push¡± in shell or click ¡°sync¡± button on right top to push change to server.
+
+????create another account to cowork with the first account
+to practise create branch operation and merge operation.
