@@ -9,3 +9,12 @@ select project---right key---open in explorer
 
 ????create another account to cowork with the first account
 to practise create branch operation and merge operation.
+
+how to launch cmd on Windows8
+press "start" ,input "cmd" in the search textbox locates on the right top¡£¡£¡£
+
+how to know if a PC has JDK?
+enter Windows cmd, input "java", if the system feedback can't recognize, then there's no JDK.
+
+
+
