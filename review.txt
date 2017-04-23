@@ -14,7 +14,40 @@ how to launch cmd on Windows8
 press "start" ,input "cmd" in the search textbox locates on the right top¡£¡£¡£
 
 how to know if a PC has JDK?
-enter Windows cmd, input "java", if the system feedback can't recognize, then there's no JDK.
+find Windows cmd icon---press right key---select "run with administrator" , input "java", if the system feedback can't recognize, then there's no JDK.
+
+CREATE TABLE temperature (
+weatherstation_id text,
+event_time timestamp,
+temperature text,
+PRIMARY KEY (weatherstation_id,event_time)
+);
+
+INSERT INTO temperature(weatherstation_id,event_time,temperature)
+VALUES (¡¯1234ABCD¡¯,¡¯2013-04-03 07:01:00¡ä,¡¯72F¡¯);
+
+INSERT INTO temperature(weatherstation_id,event_time,temperature)
+VALUES (¡¯1234ABCD¡¯,¡¯2013-04-03 07:02:00¡ä,¡¯73F¡¯);
+
+INSERT INTO temperature(weatherstation_id,event_time,temperature)
+VALUES (¡¯1234ABCD¡¯,¡¯2013-04-03 07:03:00¡ä,¡¯73F¡¯);
+
+INSERT INTO temperature(weatherstation_id,event_time,temperature)
+VALUES (¡¯1234ABCD¡¯,¡¯2013-04-03 07:04:00¡ä,¡¯74F¡¯);
+
+SELECT event_time,temperature
+FROM temperature
+WHERE weatherstation_id=¡¯1234ABCD¡¯;
+
+SELECT temperature
+FROM temperature
+WHERE weatherstation_id=¡¯1234ABCD¡¯
+AND event_time > ¡¯2013-04-03 07:01:00¡ä
+AND event_time < ¡¯2013-04-03 07:04:00¡ä;
+ 
+CREATE KEYSPACE people WITH REPLICATION = {'class' : 'SimpleStrategy','replication_factor' : 3};
+
+DESCRIBE KEYSPACE people
 
 
 
