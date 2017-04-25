@@ -63,6 +63,13 @@ INSERT INTO employees(id,name,email) VALUES (now(),'Sam Smith','ssmith@gmail.com
 
 SELECT name FROM employees WHERE email = 'jdoe@gmail.com' ALLOW FILTERING;
 
+on linux, we use ls to see the files in current path
+on windows, what is the cmd?
+dir
+
+how to see the service running on windows 8
+desktop---select icon "my computer"---click right key---select "manage"
+----select "service and applications"
 
 
 
