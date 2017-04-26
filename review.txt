@@ -72,6 +72,13 @@ desktop---select icon "my computer"---click right key---select "manage"
 ----select "service and applications"
 
 
+helloworld in java
+step1:
+File--New--project---select java project---next----input project name---finish
+step2:
+File-New--Class---input class name---select public static void main()
+
+
 
 
 
